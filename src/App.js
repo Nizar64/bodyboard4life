@@ -12,13 +12,17 @@ function App() {
    <div> 
       <Menu />
       <Carousel id="car"/>
+      <br/>
+      <div style= {{width:'100%', height:'100%',backgroundColor:'black'}}> 
+      <h1 id="t2"style= {{height:'100%', fontSize:'60px',color:'red'}}>Videos</h1>
+      </div>
+      <br/>
       <Player
       playsInline
       poster="/assets/poster.png"
       src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
     />
 }
-      <h2 id="t2">Coucou</h2>
      
 
   

@@ -35,25 +35,28 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#t2"style= {{color: "grey",fontSize:"20px" }}>titre 2</NavLink>
+                <NavLink href="#t2"style= {{color: "red",fontSize:"20px" }}>Videos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="http://fr.surf-forecast.com/breaks/I-Ibarritz/forecasts/latest/six_day">SURF FORECAST</NavLink>
+                <NavLink href="http://fr.surf-forecast.com/breaks/I-Ibarritz/forecasts/latest/six_day"style= {{color: "aqua",fontSize:"20px" }}>Bodyboard FORECAST</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret style= {{color: "grey",fontSize:"20px" }}>
+                <DropdownToggle nav caret style= {{color: "dark-blue",fontSize:"20px" }}>
                   Options
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
+                  <DropdownItem href="https://www.viewsurf.com/univers/surf/vue/5892-france-aquitaine-ondres-la-plage" target="new" style= {{color: "red",fontSize:"20px" }}>
+                    Spot Webcam Live 
                   </DropdownItem>
-                  <DropdownItem>
-                    Option 2
+                  <DropdownItem href="http://maree.info/140" target="new">
+                    Tide Infos
+                  </DropdownItem>
+                  <DropdownItem href="https://apbtour.com/" target="new" >
+                    Bodyboard World Tour [APB]
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
+                  <DropdownItem href= "https://www.bodyboardshop.com.au/ " style= {{color: "red",fontSize:"20px" }} target= "new">
+                    Bodyboard Shop
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
