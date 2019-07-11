@@ -1,13 +1,23 @@
+
 .App {
   text-align: center;
 }
+.Body{
+  
+  background-color:#535c68;
 
+}
+.Youtube{ 
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
