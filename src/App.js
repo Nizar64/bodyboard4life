@@ -10,13 +10,15 @@ import YouTube from './Youtube';
 
 function App() {
   return (
+<div className= "Body"> 
       
-   <div className= "Body"> 
+   
       <Menu />
       <Carousel id="car"/>
+   
       <br/>
       <div style= {{width:'100%', height:'100%',backgroundColor:'black'}}> 
-      <h1 id="t2"style= {{height:'100%', fontSize:'60px',color:'red'}}>Videos</h1>
+      <h1 id="t2"style= {{height:'100%', fontSize:'60px',color:'#535c68'}}>Videos</h1>
       </div>
       <br/>
       
