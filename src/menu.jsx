@@ -42,7 +42,7 @@ export default class Example extends React.Component {
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret style= {{color: "dark-blue",fontSize:"20px" }}>
-                  Options
+                  Webcam & more
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem href="https://www.viewsurf.com/univers/surf/vue/5892-france-aquitaine-ondres-la-plage" target="new" style= {{color: "#30336b",fontSize:"20px" }}>
