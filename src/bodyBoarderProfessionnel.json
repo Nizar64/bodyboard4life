@@ -1,0 +1,36 @@
+{
+    "data":  [
+        {
+            "name":"Calen Jordan",
+            "dateOfBirth":"02/08/1997",
+            "localWave":"palm beach",
+            "currentBoard":"NMD ben player (PP) ISS 40.25 inches",
+            "instagram":"@calenJordan",
+            "image":"http://inverted.com.au/wp-content/uploads/2014/07/Calen-Jordan-Inverted-Profile-Silly-Image.jpg"
+        },
+        {
+            "name":"Michael Novy",
+            "dateOfBirth":"16/03/1985",
+            "localWave":"Crackneck",
+            "currentBoard":"Nomad Novy suprem (pp) 41 inches",
+            "instagram":"@michaelnovy",
+            "image":" http://inverted.com.au/wp-content/uploads/2014/03/Novy_IMAGE.jpg"
+        },
+        {
+            "name":"Cade Sharp",
+            "dateOfBirth":"30/07/1988",
+            "localWave":"Dickies",
+            "currentBoard":" VS Dave Winchester (pp) 42 inches",
+            "instagram":"@cadesharp",
+            "image":"http://inverted.com.au/wp-content/uploads/2014/02/Cade_scribble2.jpg"
+        },
+        {
+            "name":"Shane Ackerman",
+            "dateOfBirth":"12/12/1992",
+            "localWave":"Mystics",
+            "currentBoard":"Pride Timeless(NRG) 41 inches",
+            "instagram":"@shaneackerman",
+            "image":"http://inverted.com.au/wp-content/uploads/2013/03/Shane_scribble.jpg"
+        }
+    ]
+}
