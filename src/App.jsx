@@ -4,18 +4,27 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Menu from "./menu";
 import Carousel from "./carousel";
-import "../node_modules/video-react/dist/video-react.css"; // import css
+import "../node_modules/video-react/dist/video-react.css"; 
+import Sponsors from "./components/Sponsors.jsx"
 //import { Player } from 'video-react';
 import YouTube from "./Youtube";
-import Riders from "./Riders"
+import Riders from "./Riders";
 import About from "./Image/about.png";
-
-
+import Boards from "./components/Boards";
+import Formulaire from "./formulaire.js";
+//import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import VS2020 from "./Image/VS2020.jpg";
+// import TheVersus from "./Image/TheVersus.png";
+// import Reeflex from "./Image/Reeflex.jpg";
+// import HP from "./Image/HP.png";
 function App() {
   return (
     <div className="Body">
       <Menu />
       <Carousel id="car" />
+      <Sponsors />
+      
+
       <h1
         style={{
           marginLeft: "30px",
@@ -59,6 +68,7 @@ function App() {
         information available on anything and everything both bodyboard and
         ocean related.
       </h4>
+
       <div>
         <h1
           id="t2"
@@ -84,6 +94,7 @@ function App() {
           }}
         />
       </div>
+
       <br />
       <YouTube />
       <h1
@@ -109,10 +120,54 @@ function App() {
         }}
       />
       <Riders />
-     <h1>
-       Boards
-     </h1>
-     <hr/>
+      <h1
+        style={{
+          marginLeft: "30px",
+          marginTop: "20px",
+          height: "100%",
+          fontSize: "60px",
+          color: "white"
+        }}
+      >
+        Boards
+      </h1>
+      <hr
+        style={{
+          marginLeft: "20px",
+          marginRight: "20px",
+          marginBottom: "20px",
+          width: "97%",
+          color: "white",
+          backgroundColor: "white",
+          height: "1px"
+        }}
+      />
+      <Boards />
+
+      <img
+        style={{
+          marginLeft: "25px",
+          marginRight: "20px",
+          height: "60% ",
+          width: "96%",
+          justifyContent: "center"
+        }}
+        src={VS2020}
+        alt="logo"
+      />
+
+      <hr
+        style={{
+          marginLeft: "20px",
+          marginRight: "20px",
+          marginBottom: "20px",
+          width: "97%",
+          color: "white",
+          backgroundColor: "white",
+          height: "1px"
+        }}
+      />
+      <Formulaire />
     </div>
   );
 }
