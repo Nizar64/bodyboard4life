@@ -1,9 +1,39 @@
 import React, { Component } from "react";
 import { CardDeck, Card, CardBody, CardHeader } from "reactstrap";
-class Youtube extends Component {
+class Videos extends Component {
   render() {
     return (
+    
       <div className="Youtube">
+     
+        <div>
+          
+          <h1
+            id="t2"
+            style={{
+              marginLeft: "30px",
+              marginTop: "120px",
+              height: "100%",
+              fontSize: "60px",
+              color: "white"
+            }}
+          >
+            Videos
+          </h1>
+          <hr
+            style={{
+              marginLeft: "20px",
+              marginRight: "20px",
+              marginBottom: "20px",
+              width: "97%",
+              color: "white",
+              backgroundColor: "white",
+              height: "1px"
+            }}
+          />
+        </div>
+
+        <br />
         <div
           className="Ligne1"
           style={{ marginLeft: "20px", marginRight: "20px" }}
@@ -30,7 +60,6 @@ class Youtube extends Component {
             </Card>
             <Card>
               <CardHeader style={{ color: "#22a6b3" }}>
-                
                 JEFF HUBBARD MAUI
               </CardHeader>
               <CardBody>
@@ -89,7 +118,7 @@ class Youtube extends Component {
               </CardHeader>
               <CardBody>
                 <iframe
-                 width="245"
+                  width="245"
                   height="141"
                   title="video_Youtube"
                   src="https://www.youtube.com/embed/A6pJyrkSq50"
@@ -153,4 +182,4 @@ class Youtube extends Component {
   }
 }
 
-export default Youtube;
+export default Videos;
